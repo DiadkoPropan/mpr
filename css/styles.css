@@ -47,7 +47,7 @@ button {
 /* #region Header */
 
 .header-page {
-
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-page .container-top-line {
@@ -74,11 +74,13 @@ button {
 }
 
 .nav-page {
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -89,7 +91,6 @@ button {
 }
 
 .logo-studio {
-    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
