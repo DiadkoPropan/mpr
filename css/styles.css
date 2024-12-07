@@ -64,6 +64,8 @@ img {
 }
 
 .header-page .container {
+    width: 1158px;
+    padding: 0 15px 0 15px;
     align-items: center;
     display: flex;
     justify-content: space-between
@@ -86,6 +88,7 @@ img {
 }
 
 .logo {
+    padding: 24px 0 24px;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -147,6 +150,8 @@ img {
 
 /* #region Hero */
 .hero {
+    padding: 188px 0 188px;
+    max-width: 496px;
     background-color: #2e2f42;
 }
 
@@ -170,6 +175,8 @@ img {
 }
 
 .hero-btn {
+    display: block;
+    min-width: 169px;
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
@@ -183,7 +190,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    margin-left: 164px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-btn:hover,
@@ -194,18 +202,15 @@ img {
 /* #endregion Hero */
 
 /* #region Section-1 */
-.section-1 {
+.section-first {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.section-1 .container {
+.section-first .container {
     height: 104px;
 }
 
-.section-1-title { 
-   
-}
 
 .feature-title {
     margin-bottom: 8px;
@@ -303,10 +308,10 @@ img {
 /* #region Section-3 */
 
 .section-third {
-
+    padding: 120px 0 120px 0
 }
 
-.section-third .container-third {
+.section-third .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -325,16 +330,16 @@ img {
 }
 
 .portfolio-first {
+    flex-wrap: wrap;
     margin-bottom: 168px;
     gap: 24px;
-    display: flex;
     background-color: #FFFFFF
 }
 
 .portfolio-second {
+    flex-wrap: wrap;
     margin-bottom: 120px;
     gap: 24px;
-    display: flex;
     background-color: #FFFFFF
 }
 
@@ -364,10 +369,11 @@ img {
 
 /* #region Footer */
 .footer {
+    padding: 100px 0;
     background-color: #2e2f42;
 }
 
-.footer .container-footer {
+.footer .container {
     padding-top: 100px;
     padding-bottom: 100px;
     width: 1440px;
@@ -375,7 +381,9 @@ img {
 }
 
 .footer-logo {
+    display: inline-block;
     margin-left: 156px;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -396,7 +404,6 @@ img {
 }
 
 .footer-text { 
-    margin-top: 16px;
     width: 264px;
     margin-left: 156px;
     font-family: "Roboto", sans-serif;
