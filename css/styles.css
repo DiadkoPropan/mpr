@@ -249,10 +249,10 @@ img {
 .section-second .container {
     width: 1440px;
     height: 732px;
-    padding: 120px 0 120px;
 }
 
 .section-second {
+    padding: 120px 0 120px;
     background-color: #F4F4FD
 }
 
@@ -289,6 +289,7 @@ img {
 }
 
 .personal-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
