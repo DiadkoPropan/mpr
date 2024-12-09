@@ -332,13 +332,14 @@ img {
 }
 
 .portfolio-first {
-    flex-wrap: flex;
+    flex-wrap: wrap;
+    display: flex;
     margin-bottom: 168px;
-    gap: 24px;
+    row-gap: 48px;
     background-color: #FFFFFF
 }
 
-.portfolio-first .container {
+.portfolio-first .container-port {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
