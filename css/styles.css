@@ -336,6 +336,7 @@ img {
     display: flex;
     margin-bottom: 168px;
     row-gap: 48px;
+    column-gap: 24px;
     background-color: #FFFFFF
 }
 
@@ -351,6 +352,7 @@ img {
 }
 
 .card-title {
+    margin-bottom: 8px;
     margin-top: 32px;
     margin-left: 16px;
     font-weight: 500;
