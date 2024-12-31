@@ -115,22 +115,6 @@ img {
     color: #2e2f42;
 }
 
-.nav-item {
-  position: relative;
-  color: #404bbf;
-}
-
-.nav-item ::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
-
 .nav-item-link {
     padding: 24px 0;
     font-weight: 500;
@@ -148,6 +132,20 @@ img {
     color: #404bbf;
 }
 
+.main-page {
+  color: #404bbf;
+}
+
+.main-page::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 
 .contact-link {
     font-weight: 400;
