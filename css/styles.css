@@ -120,8 +120,7 @@ img {
   color: #404bbf;
 }
 
-.nav-item-link:hover,
-.nav-item::after {
+.nav-item ::after {
     content: '';
     position: absolute;
     width: 100%;
