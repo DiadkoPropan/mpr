@@ -60,6 +60,9 @@ img {
 /* #region Header */
 
 .header-page {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -151,8 +154,11 @@ img {
 
 /* #region Hero */
 .hero {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 188px 0 188px;
-    background-color: #2e2f42;
+    background-image: url(../images/hero-image.jpg);
 }
 
 .hero .container {
@@ -199,6 +205,31 @@ img {
 /* #endregion Hero */
 
 /* #region Section-1 */
+
+.icon-list {
+    display: flex;
+    gap: 24px;
+}
+
+.item-icon {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+}
+
+.icon-pic {
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 64px;
+    height: 64px;
+}
+
+.section-first-icon {
+}
+
 .section-first {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -357,6 +388,9 @@ img {
 
 /* #region Footer */
 .footer {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 100px 0;
     background-color: #2e2f42;
 }
