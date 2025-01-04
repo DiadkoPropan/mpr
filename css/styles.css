@@ -501,9 +501,9 @@ img {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
+    color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
 }
 
 .footer-social {
@@ -526,6 +526,11 @@ img {
 .footer-social-item {
     width: 40px;
     height: 40px;
+}
+
+.footer-social-item :hover,
+.footer-social-item :focus {
+    background-color: #31d0aa;
 }
 
 .footer-social-link {
