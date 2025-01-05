@@ -558,6 +558,7 @@ img {
 }
 
 .input-email {
+    outline: none;
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -585,7 +586,9 @@ img {
     gap: 24px;
 }
 
-.footer-label {}
+.footer-label {
+    
+}
 
 .footer-btn {
     min-width: 165px;
