@@ -531,8 +531,8 @@ img {
     height: 40px;
 }
 
-.footer-social-item :hover,
-.footer-social-item :focus {
+.footer-social-link :hover,
+.footer-social-link :focus {
     background-color: #31d0aa;
 }
 
