@@ -24,7 +24,7 @@
 <body>
     <!-- #region Header -->
     <header class="header-page">
-        <div class="container">
+        <div class="container header-cont">
         <nav class="nav-page">
             <a href="./index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
             <ul class="nav-list">
@@ -33,6 +33,9 @@
                 <li class="nav-item"><a class="nav-item-link" href="">Contacts</a></li>
             </ul>
         </nav>
+        <button type="button" class="nav-btn-mobile"><svg class="" width="24" height="24">
+            <use href="./images/icons.svg#icon-btn-mobile"></use>
+        </svg></button>
         <address class="contact">
             <ul class="contact-list">
                 <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -469,9 +472,9 @@
                     <textarea class="form-comment" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
                 </div>
                 <div class="form-wrapper-checkbox">
-                    <input class="checkbox visually-hidden" type="checkbox"  name="user-privacy" required id="user-privacy"
+                    <input class="checkbox visually-hidden" type="checkbox"  name="checkbox" required id="user-privacy"
                     value="true">
-                    <label class="form-checkbox" for="user-privacy"><span class="custom-checkbox"><svg width="10"
+                    <label class="form-checkbox" for="form-checkbox"><span class="custom-checkbox"><svg width="10"
                                 height="8" class="custom-checkbox-icon">
                                 <use href="./images/icons.svg#accept-icon"></use>
                             </svg></span>I accept the terms and conditions of the <a href="#" class="policy">Privacy
@@ -479,6 +482,21 @@
                 </div>
                 <button class="checkbox-btn" type="submit">Send</button>
             </form>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <div class="container cont-mob-menu">
+            <button class="mobile-close-icon" type="button">
+                <svg class="close-icon-mob" height="8" width="8">
+                    <use href="./images/icons.svg#close-icon">
+                    </use>
+                </svg>
+            </button>
+            <ul class="list-mobile">
+                <li class="item-mobile"><a href="" class="item-mobile-link">Studio</a></li>
+                <li class="item-mobile"><a href="" class="item-mobile-link">Contacts</a></li>
+                <li class="item-mobile"><a href="" class="item-mobile-link">Portfolio</a></li>
+            </ul>
         </div>
     </div>
 </body>
